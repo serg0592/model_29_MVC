@@ -1,0 +1,874 @@
+.php-introducing {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    left: calc(50% - 257px);    
+    max-width: 525px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.php-data {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    left: calc(50% - 257px);    
+    max-width: 525px;
+}
+
+body {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "logo nav"
+                        "img text"
+                        "aboutme aboutme"
+                        "numbers numbers"
+                        "skills foto"
+                        "video video"
+                        "projects projects"
+                        "clients clients"
+                        "form form"
+                        "copyright soc_logo";
+}
+
+.box1 {
+    grid-area: logo;
+}
+
+.box2 {
+    grid-area: nav;
+}
+
+.box3 {
+    grid-area: img;
+    height: 582px;
+}
+
+.box4 {
+    grid-area: text;
+    height: 582px;
+}
+
+.box5 {
+    grid-area: aboutme;
+}
+
+.box6 {
+    grid-area: numbers;
+}
+
+.box7 {
+    grid-area: skills;
+}
+
+.box8 {
+    grid-area: foto;
+}
+
+.box9 {
+    background-color: #EEEFF1;
+    grid-area: video;
+}
+
+.box10 {
+    grid-area: projects;
+}
+
+.box11 {
+    grid-area: clients;
+}
+
+.box12 {
+    grid-area: form;
+}
+
+.box13 {
+    background-color: #34547A;
+    grid-area: copyright;
+}
+
+.box14 {
+    background-color: #34547A;
+    grid-area: soc_logo;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.numbers {
+    padding: 100px calc(50% - 573px);
+}
+
+.skills {
+    padding: 147px 0 0 calc(100% - 565px);
+}
+
+.skills h2 {
+    text-align: left;
+}
+
+.skill1, .skill2, .skill3 {
+    position: relative;
+    z-index: 1;
+    height: 4px;
+    width: 445px;
+    background-color: #C4C4C4;
+}
+
+.skill1_2, .skill2_2, .skill3_2 {
+    position: relative;
+    z-index: 2;
+    margin-top: -4px;
+    height: 4px;
+    width: 350px;
+    background-color: #34547A;
+}
+
+.foto {
+    padding: 102px 20px;
+    width: 555px;
+    height: 450px;
+}
+
+video {
+    position: relative;
+    width: 1110px;
+    height: 600px;
+    left: calc(50% - 555px);
+    padding-bottom: 112px;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 0px;
+    padding: 35px 0 0 0;
+}
+
+.gal img {
+    width: 100%;
+    height: 100%;
+}
+
+.clients {
+    padding: 72px calc(50% - 640px);
+}
+
+.clients img {
+    width: 255px;
+    height: 120px;
+    padding: 0px 30px;
+}
+
+.form {
+    position: relative;
+    width: 554px;
+    height: 260px;
+    left: calc(50% - 278px);
+    padding-bottom: 50px;
+}
+
+input {
+    width: 255px;
+    height: 50px;
+    margin: 10px;
+    padding: 0;
+    border: 0px solid;
+    text-indent: 20px;
+    font: 400 14px Roboto;
+}
+
+.msg {
+    width: 534px;
+    height: 175px;
+    margin: 10px;
+    padding: 0;
+    border: 0px solid;
+}
+
+button {
+    margin: 0 calc(50% - 95px) 37px;
+    padding: 0px;
+    border: 0px solid #ffffff;
+}
+
+.copyright {
+    margin-left: calc(100% - 554px);
+    padding: 50px 10px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;  
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.copyright span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.sl img {
+    padding: 55px 10.9px 56px;
+    width: 43.75px;
+    height: 40px;
+}
+
+.sl {
+    margin-left: 396px;
+    width: 206px;
+    height: 40px;
+}
+
+@media screen and (min-width: 1921px) {
+    nav {
+        margin: 68px 0 0 -65px;
+        width: 651px;
+        height: 24px;
+        text-align: center;
+        line-height: 26.25px;
+        letter-spacing: 0.1em;
+    }
+
+    .box2 a {
+        padding: 0 42px 0 0;
+    }
+
+    .pic {
+        width: 357px;
+        height: 233.7px;
+        margin: 149px auto auto calc(100% - 116px - 357px);
+    }
+
+    .wd {
+        margin: 46px auto auto calc(100% - 567.6px);
+        height: 72px;
+        width: 115.2px;
+        font-family: 'Revalia', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.6px;
+        line-height: 71px;
+        text-align: center;
+        color: #34547A;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    .text {
+        margin: 128px 0 0 15px;
+        max-width: 525px;
+    }
+
+    .aboutme p {
+        position: relative;
+        text-align: center;
+        left: calc(50% - 257px);    
+        max-width: 525px;
+    }
+
+    .skills {
+        padding: 147px 0 0 calc(100% - 565px);
+    }
+
+    .skills p {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    nav {
+        margin: 68px 0 0 -65px;
+        width: 651px;
+        height: 24px;
+        text-align: center;
+        line-height: 26.25px;
+        letter-spacing: 0.1em;
+    }
+
+    .box2 a {
+        padding: 0 42px 0 0;
+    }
+
+    .pic {
+        width: 357px;
+        height: 233.7px;
+        margin: 149px auto auto calc(100% - 116px - 357px);
+    }
+
+    .wd {
+        margin: 46px auto 0 calc(50% - 90.6px);
+        height: 72px;
+        width: 115.2px;
+        font-family: 'Revalia', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.6px;
+        line-height: 71px;
+        text-align: center;
+        color: #34547A;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    .text {
+        margin: 128px 0 0 15px;
+        max-width: 515px;
+    }
+
+    .aboutme p {
+        position: relative;
+        text-align: center;
+        left: calc(50% - 257px);    
+        max-width: 515px;
+    }
+}
+
+@media screen and (max-width: 1278px) {
+    .clients img {
+        width: 19.9%;
+        height: auto;
+        padding: 0px 2.35%;
+    }
+
+    .copyright {
+        margin-left: calc(100% - 43vw);
+        padding: 50px 10px;
+    }
+
+    .sl {
+        margin-left: 31vw;
+        width: 206px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    nav {
+        margin: 68px 0 0 -65px;
+        width: 651px;
+        height: 24px;
+        text-align: center;
+        line-height: 26.25px;
+        letter-spacing: 0.1em;
+    }
+
+    .box2 a {
+        padding: 0 42px 0 0;
+    }
+
+    .pic {
+        width: 357px;
+        height: 233.7px;
+        margin: 149px auto auto calc(50% - 177.5px);
+    }
+
+    .wd {
+        margin: 46px auto 0 calc(50% - 90.6px);
+        height: 72px;
+        width: 115.2px;
+        font-family: 'Revalia', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.6px;
+        line-height: 71px;
+        text-align: center;
+        color: #34547A;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    .text {
+        margin: 128px 0 0 15px;
+        max-width: 515px;
+    }
+
+    .aboutme p {
+        position: relative;
+        text-align: center;
+        left: calc(50% - 257px);    
+        max-width: 515px;
+    }
+
+    .numbers {
+        padding: 50px calc(50% - 285px);
+    }
+
+    video {
+        left: auto;
+        width: 90%;
+        height: 43vh;
+        padding: 0 5% 112px;
+    }
+
+    .skills {
+        padding: 147px 30px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    nav {
+        margin: 68px 0 0 -65px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        line-height: 39px;
+        letter-spacing: 0.1em;
+    }
+
+    .box2 a {
+        padding: 0 42px 0 0;
+    }
+
+    .pic {
+        width: 100%;
+        max-width: 357px;
+        height: auto;
+        margin: 149px auto auto calc(50% - 177.5px);
+    }
+
+    .wd {
+        margin: 46px auto 0 calc(50% - 90.6px);
+        height: 72px;
+        width: 115.2px;
+        font-family: 'Revalia', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.6px;
+        line-height: 71px;
+        text-align: center;
+        color: #34547A;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    p {
+        margin: 0px 10px 0 0;
+    }
+    
+    .text {
+        margin: 128px 0 0 15px;
+        max-width: 515px;
+    }
+
+    .aboutme p {
+        position: relative;
+        text-align: center;
+        left: calc(50% - 257px);    
+        max-width: 515px;
+    }
+
+    .galery {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        grid-template-rows: auto;
+        grid-gap: 0px;
+        padding: 35px 0 0 0;
+    }
+    
+    .gal img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .clients {
+        padding: 60px 0 60px calc(50% - 350px);
+    }
+
+    .clients img {
+        width: 300px;
+        height: auto;
+        padding: 0px 2.35%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-template-rows: auto;
+        grid-template-areas: "logo nav"
+                            "img text"
+                            "aboutme aboutme"
+                            "numbers numbers"
+                            "skills skills"
+                            "foto foto"
+                            "video video"
+                            "projects projects"
+                            "clients clients"
+                            "form form"
+                            "copyright soc_logo";
+    }
+
+    .box3 {
+        grid-area: img;
+        height: calc(100% + 20px);
+    }
+    
+    .box4 {
+        grid-area: text;
+        height: calc(100% + 20px);
+    }
+
+    nav {
+        position: relative;
+        text-align: center;
+        line-height: 39px;
+    }
+
+    .box2 a {
+        padding: 0 42px 0 0;
+    }
+
+    .pic {
+        width: 100%;
+        min-width: 100px;
+        height: auto;
+        margin: 4vh 0 0 0;
+    }
+
+    .wd {
+        font-family: 'Revalia', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.6px;
+        line-height: 71px;
+        text-align: center;
+        color: #34547A;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+        padding: 0 0 3vh 0;
+    }
+    
+    p {
+        margin: 0 2vw 0 2vw;
+        padding: 0;
+    }
+    
+    .text {
+        margin: 3vh 2vw 0 2vw;
+        max-width: 515px;
+    }
+    
+    .box4 img {
+        position: relative;
+        left: -112.5px;
+        margin-top: 25px;
+    }
+
+    h2 {
+        margin: 25px 0;
+    }
+
+    .aboutme p {
+        position: relative;
+        text-align: center;
+        left: 0;
+        margin: 1vh 10vw;    
+        max-width: 515px;
+    }
+
+    .numbers {
+        padding: 10px calc(50% - 285px);
+    }
+
+    .skills {
+        padding: 1px 0 30px calc(50% - 225px);
+    }
+
+    .foto {
+        width: 80%;
+        min-width: 100px;
+        height: auto;
+        padding: 10px 10.5%;
+    }
+
+    video {
+        left: auto;
+        width: 90%;
+        height: 26vh;
+        padding: 0 5% 20px;
+    }
+
+    .clients {
+        padding: 60px 0 60px calc(50% - 280px);
+    }
+
+    .clients img {
+        width: 240px;
+        height: auto;
+        padding: 0px 2.35%;
+    }
+
+    .copyright {
+        margin-left: calc(100% - 43vw);
+        padding: 50px 10px;
+    }
+
+    .sl {
+        margin-left: 13vw;
+        width: 206px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 570px) {  
+    .numbers {
+        padding: 10px calc(50% - 189px);
+    }
+
+    .clients {
+        padding: 60px calc(50% - 212px);
+    }
+
+    .clients img {
+        width: 190px;
+        height: auto;
+        padding: 0px 2.35%;
+    }
+
+    .form {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        left: 0px;
+        padding-bottom: 50px;
+    }
+    
+    input {
+        width: 95vw;
+        height: 50px;
+        margin: 10px;
+        padding: 0;
+        border: 0px solid;
+        text-indent: 20px;
+        font: 400 14px Roboto;
+    }
+    
+    .msg {
+        width: 95vw;
+        height: 175px;
+        margin: 10px;
+        padding: 0;
+        border: 0px solid;
+    }
+
+    .sl img {
+        padding: 55px 10.9px 56px;
+        width: 30.6px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .grid {
+        display: block;
+    }
+
+    .wd {
+        font-family: 'Revalia', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57.6px;
+        line-height: 71px;
+        text-align: center;
+        color: #34547A;
+        margin: -10px 0 25px 0;
+        padding: 20px calc(50% - 57.6px) 25px;
+
+    }
+
+    nav {
+        position: relative;
+        margin: -26px 0 0 9vw;
+        text-align: center;
+        line-height: 39px;
+    }
+
+    .box2 a {
+        padding: 0 10vw 0 0;
+    }
+
+    .pic {
+        position: relative;
+        float: none;
+        margin: 25px 14vw;
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0;
+        padding: 0 0 2vh 0;
+    }
+    
+    p {
+        text-align: center;
+        margin: 0 2vw 0 2vw;
+        padding: 0;
+    }
+
+    .skills h2 {
+        text-align: center;
+    }
+    
+    .text {
+        margin: 1px 2vw 0 2vw;
+        max-width: 515px;
+    }
+    
+    .box4 img {
+        left: calc(50% - 112.5px);
+        margin: 1vh 0;
+        transform: scale(0.8);
+    }
+
+    .aboutme p {
+        position: relative;
+        text-align: center;
+        left: 0;
+        margin: 1vh 5vw;    
+        max-width: 515px;
+    }
+
+    .skill1, .skill2, .skill3 {
+        height: 4px;
+        width: 90%;
+    }
+    
+    .skill1_2, .skill2_2, .skill3_2 {
+        margin-top: -4px;
+        height: 4px;
+        width: calc(90% - 20vw);
+    }
+
+    video {
+        left: auto;
+        width: 90%;
+        height: 26vh;
+        padding: 0 5% 10px;
+    }
+
+    .galery {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 200px);
+        grid-template-rows: auto;
+        grid-gap: 1vw;
+    }
+
+    .gal img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .copyright {
+        margin-left: calc(50% - 103px);
+        padding: 15px 10px;
+    }
+
+    .sl {
+        margin-left: calc(50% - 103px);
+        width: 206px;
+        height: 40px;
+    }
+
+    .sl img {
+        padding: 0 10.9px;
+        width: 43.75px;
+        height: 40px;
+    }
+}
+
+.box1, .box2, .box3, .box4, .box12 {
+    background: #EEEFF1;
+}
+
+.box2 a {
+    font-family: 'Roboto', serif;
+    margin: 0px -3px 0;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.item {
+    margin: -0.5px;
+}
+
+.box6 {
+    background: #34547A;
+}
+
+.numbers img {
+    height: 50px;
+    width: 141px;
+    padding: 25px 25px;
+    margin: 0px -2px;
+}
+
+.skills p {
+    margin: 0px;
+    padding: 30px 10px 20px 0;
+}
