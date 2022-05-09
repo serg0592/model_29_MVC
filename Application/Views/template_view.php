@@ -19,9 +19,7 @@
                 <div class="item box2">
                     <?php include 'Source/menu.inc.php' ?>
                 </div>
-                <?php 
-                    $content_view; 
-                ?>
+                <?php include $content_view ?>
             </div>
         </main>
         <footer>
