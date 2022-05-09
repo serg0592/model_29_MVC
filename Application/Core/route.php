@@ -5,14 +5,14 @@ class Route
 	{
 		// контроллер и действие по умолчанию
 		$controller_name = 'Main';
-             $action_name = 'index';
-	             $routes = $_GET['pages'];
+        $action_name = 'index';
+	    /*$routes = $_GET['pages'];
 		
 		// получаем имя контроллера
 		if ( !empty($routes) )
 		{	
 			$controller_name = $routes;
-		}
+		}*/
 		
 		// добавляем префиксы
 		$model_name = 'model_'.$controller_name;
