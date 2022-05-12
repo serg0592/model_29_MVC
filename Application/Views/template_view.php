@@ -19,15 +19,17 @@
                 <div class="item box2">
                     <?php include 'Source/menu.inc.php' ?>
                 </div>
-                <?php include $content_view ?>
+                <?php include $content_view; ?>
             </div>
         </main>
         <footer>
-            <div class="item box13">
-                <?php include 'Source/copyright.inc.php' ?>
-            </div>
-            <div class="item box14">
-                <?php include 'Source/soc_logo.inc.php' ?>
+            <div class="grid">
+                <div class="item box13">
+                    <?php include 'Source/copyright.inc.php' ?>
+                </div>
+                <div class="item box14">
+                    <?php include 'Source/soc_logo.inc.php' ?>
+                </div>
             </div>
         </footer>
     </body>
