@@ -6,13 +6,13 @@ class Route
 		// контроллер и действие по умолчанию
 		$controller_name = 'Main';
         $action_name = 'index';
-	    $routes = $_GET['pages'];
+	    /*$routes = $_SERVER['REQUEST_URI'];
 		
 		// получаем имя контроллера
 		if ( !empty($routes) )
 		{	
 			$controller_name = $routes;
-		}
+		}*/
 		
 		// добавляем префиксы
 		$model_name = 'model_'.$controller_name;
@@ -50,12 +50,6 @@ class Route
 		    Route::ErrorPage404();
 		}
 	}
-	function ErrorPage404()
-	{
-                        $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
-                         header('HTTP/1.1 404 Not Found');
-		header("Status: 404 Not Found");
-		header('Location:'.$host.'404');
-    }
+	
 }
 ?>
