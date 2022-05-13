@@ -10,7 +10,12 @@
         <title>MVC practice</title>
     </head>
     <body>
-        <header></header>
+        <header>
+            <?php
+                $url = $_GET['url'];
+                echo $url;
+            ?>
+        </header>
         <main>
             <div class="grid">                
                 <div class="item box1">
