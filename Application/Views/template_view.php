@@ -12,7 +12,7 @@
     <body>
         <header>
             <?php
-                $url = $_GET['url'];
+                $url = $_SERVER['REQUEST_URI'];
                 echo $url;
             ?>
         </header>
