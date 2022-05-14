@@ -12,8 +12,8 @@
     <body>
         <header>
             <?php
-                $url = $_SERVER['REQUEST_URI'];
-                echo $url;
+                $url = explode ('/myProjects/module_29_MVC/', $_SERVER['REQUEST_URI']);
+                echo $url[0];
             ?>
         </header>
         <main>
