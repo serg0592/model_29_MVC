@@ -10,12 +10,7 @@
         <title>MVC practice</title>
     </head>
     <body>
-        <header>
-            <?php
-                $url = explode ('/myProjects/module_29_MVC/', $_SERVER['REQUEST_URI']);
-                echo $url[0];
-            ?>
-        </header>
+        <header></header>
         <main>
             <div class="grid">                
                 <div class="item box1">
@@ -38,5 +33,4 @@
             </div>
         </footer>
     </body>
-    <script src="JS/script.js"></script> 
 </html>
