@@ -13,17 +13,6 @@ class Route
 		{	
 			$controller_name = $routes;
 		}
-
-		/*$routes = explode ('/myProjects/module_29_MVC/', $_SERVER['REQUEST_URI']);
-		if ( !empty($routes[1]) )
-		{	
-			$controller_name = $routes[1];
-		}
-
-		if ( !empty($routes[2]) )
-		{	
-			$action_name = $routes[2];
-		}*/
 		
 		// добавляем префиксы
 		$model_name = 'model_'.$controller_name;
