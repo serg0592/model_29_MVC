@@ -18,6 +18,11 @@ class Route
 		$model_name = 'model_'.$controller_name;
 		$controller_name = 'controller_'.$controller_name;
 		$action_name = 'action_'.$action_name;
+
+		echo "Model: $model_name <br>";
+		echo "Controler: $controller_name <br>";
+		echo "Action: $action_name <br>";
+		
 		// подцепляем файл с классом модели (файла модели может и не быть)
 		$model_file = strtolower($model_name).'.php';
 		$model_path = "Application/models/".$model_file;
